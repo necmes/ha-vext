@@ -1,0 +1,96 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Vext",
+        "description": "Sign in with your Vext app account.",
+        "data": {
+          "email": "Email",
+          "password": "Password"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Vext",
+        "description": "Your Vext session for {email} is no longer valid. Enter the password again.",
+        "data": {
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid email or password.",
+      "cannot_connect": "Could not reach the Vext service."
+    },
+    "abort": {
+      "already_configured": "This Vext account is already set up.",
+      "reauth_successful": "Vext re-authenticated successfully."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "temperature": {
+        "name": "Temperature"
+      },
+      "humidity": {
+        "name": "Humidity"
+      },
+      "water": {
+        "name": "Water"
+      },
+      "nutrient_grow": {
+        "name": "Nutrient grow"
+      },
+      "nutrient_bloom": {
+        "name": "Nutrient bloom"
+      },
+      "wifi_rssi": {
+        "name": "WiFi signal"
+      },
+      "health": {
+        "name": "Plant health"
+      },
+      "water_refill": {
+        "name": "Water refill"
+      },
+      "pods_ready": {
+        "name": "Pods ready"
+      },
+      "pods_past_prime": {
+        "name": "Pods past prime"
+      },
+      "firmware": {
+        "name": "Firmware"
+      }
+    },
+    "number": {
+      "brightness": {
+        "name": "Brightness"
+      },
+      "fog_moisture": {
+        "name": "Fog moisture"
+      },
+      "fog_rhythm": {
+        "name": "Fog rhythm"
+      }
+    },
+    "time": {
+      "lights_on": {
+        "name": "Lights on"
+      },
+      "lights_off": {
+        "name": "Lights off"
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Vext options",
+        "description": "How often to poll the Vext service. The minimum is 60 seconds to keep load on the service low.",
+        "data": {
+          "scan_interval": "Polling interval (seconds)"
+        }
+      }
+    }
+  }
+}

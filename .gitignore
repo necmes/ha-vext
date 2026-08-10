@@ -1,0 +1,23 @@
+# secrets / local
+vext.env
+*.env
+!vext.env.example
+
+# operational cruft (NAS setup, capture, personal)
+nas_runbook.sh
+screenshots/
+
+# python
+__pycache__/
+*.pyc
+
+# stray downloads
+*.crdownload
+
+# local test env
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+.venv-test/
+.venv-test/

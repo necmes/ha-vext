@@ -1,0 +1,13 @@
+{
+  "domain": "vext",
+  "name": "Vext",
+  "codeowners": ["@necmes"],
+  "config_flow": true,
+  "dependencies": ["http", "frontend"],
+  "documentation": "https://github.com/necmes/ha-vext",
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/necmes/ha-vext/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}
